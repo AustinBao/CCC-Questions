@@ -32,14 +32,6 @@ for row_index in range(len(grid)):
 print(grid)
 
 
-for col in range(len(grid)):
-    col_list = [row[col] for row in grid]
-    print(col_list)
-
-
-
-
-
 # [8, 9, 10],
 # [16,'X','X']
 # [24, 27, 30]
